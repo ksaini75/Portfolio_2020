@@ -1,0 +1,85 @@
+
+
+.projectContainer{
+    margin-top: 5%;
+    background-color: white !important;
+    
+}
+
+.projectCard{
+    /* width: 25rem; */
+    justify-content: center;
+    /* border: 1px solid rgba(255, 255, 255) !important; */
+  
+}
+
+.projectTools{
+    font-family: 'Bebas Neue', cursive;
+    color: #EB1074;
+ 
+   
+    
+}
+
+.projectContent{
+    margin: 10px;
+    color:black;
+    font-size: 18px;
+
+}
+
+.projectTitle{
+    margin-top:10%;
+ 
+    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Nunito', sans-serif; */
+    color: #3bc5cc !important;
+    text-align: center;
+
+
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+    text-underline-position: under;
+}
+.projectJumbo {
+   
+    background-color: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+.projectImage{
+  
+   /* margin-top:15%; */
+
+}
+
+.projectSubtitle{
+    font-family: 'Nunito', sans-serif;
+    color: black !important;
+    
+ 
+
+} 
+
+.viewProject{
+    text-transform: uppercase;
+    color: #EB1074;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(243, 237, 237, 0.5);
+    border-radius: 5px;
+   
+}
+/* h1{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(255,136,136, 0.6) !important ;
+    text-align: center;
+} */
+
+a:hover{
+    text-decoration: none !important;
+}
+
