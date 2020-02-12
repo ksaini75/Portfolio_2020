@@ -16,7 +16,7 @@ const About = () => (
   <Container>
   <h1 className ="aboutTitle">About Me</h1>
   <Row>
-  <Col lg={12} xs={12} >
+  <Col lg={12} >
   <p className = "aboutContent">
     I am a detail-oriented Front-end Developer dedicated in creating interactive, user-friendly web applications. 
     I’ve completed my Bachelor of Science Degree in Computer Science along with a minor in Finance at Pace University. 
