@@ -18,7 +18,7 @@ return (
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lateef|Rubik:500|Open+Sans|Rancho|Nunito|Permanent+Marker&display=swap" rel="stylesheet"></link>
       
     <animated.h1 style ={test} className="homeText"> I am <span>Karishma</span> ,     </animated.h1>
-    <animated.h5 style ={test} className="homeText"> a Front-End Developer based in New York</animated.h5>
+    <animated.h5 style ={test} className="homeText"> a Front-End Developer and UX Designer based in New York</animated.h5>
   </Container>
 )
 }

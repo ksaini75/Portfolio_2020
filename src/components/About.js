@@ -18,7 +18,7 @@ const About = () => (
   <Row>
   <Col lg={12} >
   <p className = "aboutContent">
-    I am a detail-oriented Front-end Developer dedicated in creating interactive, user-friendly web applications. 
+    I am a detail-oriented Front-end Developer and UX Designer dedicated in creating interactive, user-friendly web applications. 
     I’ve completed my Bachelor of Science Degree in Computer Science along with a minor in Finance at Pace University. 
     I am expected to graduate upcoming May 2020 with a Master’s Degree of Science in Information Technology with a Cybersecurity Concentration. 
     I am currently working as a graduate assistant in the Financial Information System department at Pace University where I join a team of developers to implement admin web pages for the new system. 
