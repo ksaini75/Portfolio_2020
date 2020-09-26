@@ -88,7 +88,7 @@ class ProjectCard extends React.Component {
   </p>
   <br/>
   <Col lg={6}>
-  <a href="https://ksaini75.github.io/RoboFriends/"  target="_blank">
+  <a href="https://ksaini75.github.io/Robofriend/"  target="_blank">
           <p className="viewProject"> View Project</p>
           </a>
   </Col>
