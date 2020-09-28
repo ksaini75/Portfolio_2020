@@ -24,7 +24,6 @@ const About = () => (
     to learn new materials such as React.js, UX Design skills and JavaScript. This allows me to grow as a developer and understand the 
     users' needs as I build these websites. 
     
-   
   </p>
   
    
