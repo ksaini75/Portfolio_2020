@@ -9,7 +9,7 @@ import  linedin_logo from '../components/icons8-linkedin-50.png';
 import  GitHub_Logo  from '../components/github_logo.png';
 import  Email from '../components/email.png';
 import resume from '../components/resume.png';
-import Karishma_Saini_Resume_2020 from '../components/resume/Karishma_Saini_Resume_.pdf';
+import Karishma_Saini_Resume_2020 from '../components/resume/Resume-KarishmaSaini_2020.docx';
 
 
 
