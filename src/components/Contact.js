@@ -5,11 +5,11 @@ import Col from 'react-bootstrap/Col';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
 
-import  linedin_logo from '../components/icons8-linkedin-50.png';
-import  GitHub_Logo  from '../components/github_logo.png';
-import  Email from '../components/email.png';
-import resume from '../components/resume.png';
-import Karishma_Saini_Resume_2020 from '../components/resume/Resume-KarishmaSaini_2020.docx';
+import  linedin_logo from '../Images/icons8-linkedin-50.png';
+import  GitHub_Logo  from '../Images/github_logo.png';
+import  Email from '../Images/email.png';
+import resume from '../Images/resume.png';
+import Karishma_Saini_Resume_2020 from '../components/resume/Karishma_2020.docx';
 
 
 
@@ -47,7 +47,7 @@ const Contact = () => (
 <p className="contactContent">
    GitHub 
 </p>
-      <a href ="https://github.com/ksaini75"  target="_blank">
+      <a href ="https://github.com/ksaini75"  target="_blank" rel="noopener noreferrer">
           <Image className="logo" src={GitHub_Logo} />
     </a>
             
@@ -56,7 +56,7 @@ const Contact = () => (
 <p className="contactContent">
    LinkedIn
 </p>
-       <a href="https://www.linkedin.com/in/karishma-saini/" target="_blank">
+       <a href="https://www.linkedin.com/in/karishma-saini/" target="_blank" rel="noopener noreferrer">
      <Image  className="logo" src={linedin_logo }/>
    </a>
             
@@ -65,7 +65,7 @@ const Contact = () => (
 <p className="contactContent">
   Resume
 </p>
-       <a  href={Karishma_Saini_Resume_2020} target="_blank">
+       <a  href={Karishma_Saini_Resume_2020} target="_blank" rel="noopener noreferrer">
     <Image className="logo" src ={resume}/>  
     </a>
             

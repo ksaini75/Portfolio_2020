@@ -4,9 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
-import YelpCamp from '../components/YelpCamp.png';
-import RoboFriends from '../components/roboFriends.png';
-import FaceRecognition from '../components/faceRecognition.png';
+import YelpCamp from '../Images/YelpCamp.png';
+import RoboFriends from '../Images/roboFriends.png';
+import FaceRecognition from '../Images/face-recognition-app.png';
+import ErikaMoya from '../Images/ErikaMoya.png';
 
 import '../Styles/ProjectCard.css';
 
@@ -21,6 +22,46 @@ class ProjectCard extends React.Component {
        <h1>Projects</h1>
     </Container>
 
+
+    <Container className="projectContainer">
+      <Jumbotron className="projectJumbo" fluid>
+      <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lateef|Bebas+Neue|Rubik:500|Open+Sans|Rancho|Nunito|Permanent+Marker&display=swap" rel="stylesheet"></link>
+      
+      <Container>
+      <h1 className ="projectSubtitle">Erika Moya</h1>
+      <p className="projectTools">HTML5 | React.js | Boostrap 4 | CSS | Email.JS | AdobeXD  </p>
+      <Row>
+        <Col lg={6}> 
+        <Image  className='projectImage' src={ErikaMoya}   thumbnail/> 
+        </Col>
+        
+        <Col lg={6} >
+        <p className = "projectContent">
+
+        Build an eye-catching client portfolio, the client is a mental health counselor. Use AdobeXD to
+        create wire-frames and mock up of the designs for the client. The client
+        requested a portfolio for job-searching purposes. Used React.js, Bootstrap 4, Email.JS and used 
+        Netlify to deploy the website to production. 
+        </p>
+       
+     <br/>
+        <Col lg={6}>
+        <a href="https://erikamoya.netlify.app"  target="_blank" rel="noopener noreferrer">
+          <p className="viewProject"> View Project</p>
+          </a>
+     
+        </Col>
+   
+        
+       
+    </Col>
+    </Row>
+   
+</Container>
+</Jumbotron>
+
+
+</Container>
 
       <Container className="projectContainer">
       <Jumbotron className="projectJumbo" fluid>
@@ -45,7 +86,7 @@ class ProjectCard extends React.Component {
        
      <br/>
         <Col lg={6}>
-        <a href="https://safe-gorge-94321.herokuapp.com"  target="_blank">
+        <a href="https://safe-gorge-94321.herokuapp.com"  target="_blank" rel="noopener noreferrer">
           <p className="viewProject"> View Project</p>
           </a>
      
@@ -88,7 +129,7 @@ class ProjectCard extends React.Component {
   </p>
   <br/>
   <Col lg={6}>
-  <a href="https://ksaini75.github.io/Robofriend/"  target="_blank">
+  <a href="https://ksaini75.github.io/Robofriend/"  target="_blank" rel="noopener noreferrer">
           <p className="viewProject"> View Project</p>
           </a>
   </Col>
@@ -126,7 +167,7 @@ class ProjectCard extends React.Component {
   </p>
   <br/>
   <Col lg={6}>
-  <a href="https://face-recognition-application1.herokuapp.com"  target="_blank">
+  <a href="https://facerecognition21.herokuapp.com"  target="_blank" rel="noopener noreferrer">
           <p className="viewProject"> View Project</p>
           </a>
   </Col>
